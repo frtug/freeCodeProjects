@@ -1,0 +1,146 @@
+<html>
+<head>
+  <link rel="stylesheet" href="index2.css">
+</head>
+<header class="has-text-centered">
+  <h1 class="has-text-weight-semibold is-size-1" id="title">Survey form</h1>
+</header>
+<section>
+  <article>
+    <p class="has-text-centered" id="description">Let us know how we can improve freeCodeCamp</p><br/>
+    <form id="survey-form">
+      <div class="field is-horizontal">
+        <div class="field-label is-small">
+          <label class="label" id="name-label">* Name:</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input class="input is-small" id="name" type="text" placeholder="Enter your name" required="required"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="field is-horizontal">
+        <div class="field-label is-small">
+          <label class="label" id="email-label">* Email:</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input class="input is-small" type="email" placeholder="Enter your email" id="email" required="required"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="field is-horizontal">
+        <div class="field-label is-small">
+          <label class="label" id="number-label">* Age:</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input class="input is-small" id="number" type="number" placeholder="Enter your age" min="0" max="10" required="required"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="field is-horizontal">
+        <div class="field-label is-small">
+          <label class="label">Which option best describes your current role?</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <select id="dropdown">
+                <option>Select dropdown</option>
+                <option>Student</option>
+                <option>Full time job</option>
+                <option>Full time learner</option>
+                <option>Prefer not to say</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="field is-horizontal">
+        <div class="field-label is-small">
+          <label class="label">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <label class="radio">
+                <input type="radio" name="radio-buttons" value="0"/> Definitely<br/>
+                <input type="radio" name="radio-buttons" value="1"/> Maybe<br/>
+                <input type="radio" name="radio-buttons" value="2"/> Not sure
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="field is-horizontal">
+        <div class="field-label is-small">
+          <label class="label">What do you like most in FCC:</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <select>
+                <option>Select an option</option>
+                <option>Challenges</option>
+                <option>Projects</option>
+                <option>Community</option>
+                <option>Open Source</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="field is-horizontal">
+        <div class="field-label is-small">
+          <label class="label">Things that should be improved in the future</label>(Check all that apply):
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <label class="checkbox">
+                <input type="checkbox" value="fe"/> Front-end Projects<br/>
+                <input type="checkbox" value="be"/> Back-end Projects<br/>
+                <input type="checkbox" value="dv"/> Data Visualisation<br/>
+                <input type="checkbox" value="ch"/> Challenges<br/>
+                <input type="checkbox" value="os"/> Open Source Community<br/>
+                <input type="checkbox" value="he"/> Gitter help rooms<br/>
+                <input type="checkbox" value="vid"/> Videos<br/>
+                <input type="checkbox" value="meet"/> City Meetups<br/>
+                <input type="checkbox" value="wiki"/> Wiki<br/>
+                <input type="checkbox" value="forum"/> Forum<br/>
+                <input type="checkbox" value="courses"/> Additional Courses<br/>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="field is-horizontal">
+        <div class="field-label is-small">
+          <label class="label">Any Comments or Suggestions?</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <textarea class="textarea" placeholder="Enter your comment here..."></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="field is-centered">
+        <div class="control">
+          <button class="button is-link" id="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </article>
+</section>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

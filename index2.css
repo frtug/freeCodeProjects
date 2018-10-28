@@ -1,0 +1,13 @@
+html {
+  font-family: 'Raleway', Helvetica, sans-serif;
+  background-color: #e3e3e3;
+  background-color: powderblue;
+}
+
+article {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 10px;
+}
